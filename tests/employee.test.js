@@ -1,4 +1,4 @@
-const Employee = require('./Employee');
+const Employee = require('../lib/Employee');
 const employee = new Employee('Noelle', '567890', 'crownoelle@gmail.com');
 
 test('test if we can retrieve constructor values for employee object', () => {
