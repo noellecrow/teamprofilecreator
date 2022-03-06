@@ -5,7 +5,7 @@ const Intern = require('./lib/Intern');
 const generateSite = require('./src/generate-site');
 const fs = require('fs');
 const path = require('path');
-const OUTPUT_DIR = path.resolve(_dirname, 'output');
+const OUTPUT_DIR = path.resolve(__dirname, 'dist');
 const outputPath = path.join(OUTPUT_DIR, 'team.html');
 const teamMembers = [];
 
