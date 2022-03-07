@@ -22,7 +22,7 @@ const generateTeam = (team) => {
     const generateEngineer = engineer => {
         console.log(engineer);
         let engineerHTML = `
-        <div class="card" styple="width: 18rem;">
+        <div class="card" style="width: 18rem;">
         <div class="card-header">
         ${engineer.name} <br/>
         <i class="fas fa-glasses"></i>Engineer</div>
